@@ -1,0 +1,2762 @@
+
+chtti@G317-P32 MINGW64 ~
+$ ls
+'[開始] 功能表'@     Documents/         Music/           NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+AppData/             Downloads/         'My Documents'@  NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer000000000000000000
+'Application Data'@  eclipse/           NetHood@         NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer000000000000000000
+Contacts/            Favorites/         NTUSER.DAT       NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TM.blf
+Cookies@             Links/             ntuser.dat.LOG1  NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TMContainer000000000000000000
+Desktop/             'Local Settings'@  ntuser.dat.LOG2  NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TMContainer000000000000000000
+
+chtti@G317-P32 MINGW64 ~
+$ ls
+'[開始] 功能表'@     Music/                                                                                        ntuser.ini
+AppData/             'My Documents'@                                                                               ntuser.pol
+'Application Data'@  NetHood@                                                                                      Pictures/
+Contacts/            NTUSER.DAT                                                                                    PrintHood@
+Cookies@             ntuser.dat.LOG1                                                                               Recent@
+Desktop/             ntuser.dat.LOG2                                                                               'Saved Games'/
+Documents/           NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf                                       Searches/
+Downloads/           NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms  SendTo@
+eclipse/             NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms  Templates@
+Favorites/           NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TM.blf                                       Tracing/
+Links/               NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TMContainer00000000000000000001.regtrans-ms  Videos/
+'Local Settings'@    NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TMContainer00000000000000000002.regtrans-ms  'VirtualBox VMs'/
+
+chtti@G317-P32 MINGW64 ~
+$ ls -l
+total 8602
+lrwxrwxrwx 1 chtti 197121      59 二月 22 16:57 '[開始] 功能表' -> '/c/Users/chtti/AppData/Roaming/Microsoft/Windows/Start Menu'/
+drwxr-xr-x 1 chtti 197121       0 二月 26 16:57 AppData/
+lrwxrwxrwx 1 chtti 197121      30 二月 22 16:57 'Application Data' -> /c/Users/chtti/AppData/Roaming/
+drwxr-xr-x 1 chtti 197121       0 二月 26 16:57 Contacts/
+lrwxrwxrwx 1 chtti 197121      56 二月 22 16:57 Cookies -> /c/Users/chtti/AppData/Roaming/Microsoft/Windows/Cookies/
+drwxr-xr-x 1 chtti 197121       0 四月 11 16:11 Desktop/
+drwxr-xr-x 1 chtti 197121       0 五月 18 09:52 Documents/
+drwxr-xr-x 1 chtti 197121       0 五月 23 09:39 Downloads/
+drwxr-xr-x 1 chtti 197121       0 二月 26 16:57 eclipse/
+drwxr-xr-x 1 chtti 197121       0 四月 13 17:40 Favorites/
+drwxr-xr-x 1 chtti 197121       0 二月 26 16:57 Links/
+lrwxrwxrwx 1 chtti 197121      28 二月 22 16:57 'Local Settings' -> /c/Users/chtti/AppData/Local/
+drwxr-xr-x 1 chtti 197121       0 四月 26 07:55 Music/
+lrwxrwxrwx 1 chtti 197121      24 二月 22 16:57 'My Documents' -> /c/Users/chtti/Documents/
+lrwxrwxrwx 1 chtti 197121      66 二月 22 16:57 NetHood -> '/c/Users/chtti/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 chtti 197121 6029312 五月 23 09:45 NTUSER.DAT
+-rw-r--r-- 1 chtti 197121  262144 五月 23 09:45 ntuser.dat.LOG1
+-rw-r--r-- 1 chtti 197121       0 三月  2 10:36 ntuser.dat.LOG2
+-rw-r--r-- 1 chtti 197121   65536 二月 22 17:03 NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+-rw-r--r-- 1 chtti 197121  524288 二月 22 17:03 NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 chtti 197121  524288 二月 22 17:03 NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 chtti 197121   65536 三月  2 10:41 NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TM.blf
+-rw-r--r-- 1 chtti 197121  524288 三月  2 10:41 NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 chtti 197121  524288 三月  2 10:41 NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 chtti 197121      20 二月 22 16:57 ntuser.ini
+-r--r--r-- 1 chtti 197121     382 四月 11 12:17 ntuser.pol
+drwxr-xr-x 1 chtti 197121       0 二月 26 16:57 Pictures/
+lrwxrwxrwx 1 chtti 197121      66 二月 22 16:57 PrintHood -> '/c/Users/chtti/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 chtti 197121      55 二月 22 16:57 Recent -> /c/Users/chtti/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 chtti 197121       0 二月 26 16:57 'Saved Games'/
+drwxr-xr-x 1 chtti 197121       0 二月 26 16:57 Searches/
+lrwxrwxrwx 1 chtti 197121      55 二月 22 16:57 SendTo -> /c/Users/chtti/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 chtti 197121      58 二月 22 16:57 Templates -> /c/Users/chtti/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 chtti 197121       0 二月 26 16:57 Tracing/
+drwxr-xr-x 1 chtti 197121       0 二月 26 16:57 Videos/
+drwxr-xr-x 1 chtti 197121       0 五月 17 14:39 'VirtualBox VMs'/
+
+chtti@G317-P32 MINGW64 ~
+$ pwd
+/c/Users/chtti
+
+chtti@G317-P32 MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+
+chtti@G317-P32 MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+
+chtti@G317-P32 MINGW64 ~
+$ git config --global user.name "weichia"
+
+chtti@G317-P32 MINGW64 ~
+$ git config --global user.email "weichia@cht.com.tw"
+
+chtti@G317-P32 MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+user.name=weichia
+user.email=weichia@cht.com.tw
+
+chtti@G317-P32 MINGW64 ~
+$ git config --global https.proxy http://proxy.cht.com.tw:8080
+
+chtti@G317-P32 MINGW64 ~
+$ git config --global http.proxy http://proxy.cht.com.tw:8080
+
+chtti@G317-P32 MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+user.name=weichia
+user.email=weichia@cht.com.tw
+https.proxy=http://proxy.cht.com.tw:8080
+http.proxy=http://proxy.cht.com.tw:8080
+
+chtti@G317-P32 MINGW64 ~
+$ git config --help
+Launching default browser to display HTML ...
+
+chtti@G317-P32 MINGW64 ~
+$ dir
+[開始]\ 功能表     Music                                                                                         ntuser.ini
+AppData            My\ Documents                                                                                 ntuser.pol
+Application\ Data  NetHood                                                                                       Pictures
+Contacts           NTUSER.DAT                                                                                    PrintHood
+Cookies            ntuser.dat.LOG1                                                                               Recent
+Desktop            ntuser.dat.LOG2                                                                               Saved\ Games
+Documents          NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf                                       Searches
+Downloads          NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms  SendTo
+eclipse            NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms  Templates
+Favorites          NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TM.blf                                       Tracing
+Links              NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TMContainer00000000000000000001.regtrans-ms  Videos
+Local\ Settings    NTUSER.DAT{3133025a-dc62-11e5-9f94-005056c00008}.TMContainer00000000000000000002.regtrans-ms  VirtualBox\ VMs
+
+chtti@G317-P32 MINGW64 ~
+$ pwd
+/c/Users/chtti
+
+chtti@G317-P32 MINGW64 ~
+$ mkdir demo
+
+chtti@G317-P32 MINGW64 ~
+$ cd demo
+
+chtti@G317-P32 MINGW64 ~/demo
+$ git init
+Initialized empty Git repository in C:/Users/chtti/demo/.git/
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ cd .dit
+bash: cd: .dit: No such file or directory
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch file1
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+file1
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ll
+total 0
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:16 file1
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ rm file1
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ dir
+index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ll
+total 0
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:17 index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -al
+total 16
+drwxr-xr-x 1 chtti 197121 0 五月 23 10:17 ./
+drwxr-xr-x 1 chtti 197121 0 五月 23 10:01 ../
+drwxr-xr-x 1 chtti 197121 0 五月 23 10:01 .git/
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:17 index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ vi index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ edit
+ bash: edit: command not found
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$  vim index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ get add index.html
+bash: get: command not found
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch index2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add index2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   index2.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ dir
+index.html  index2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -l
+total 0
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:17 index.html
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:20 index2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ rm index2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   index2.html
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    index2.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rm index2.html
+rm 'index2.html'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        welcome.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   welcome.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rm welcome.html
+error: the following file has changes staged in the index:
+    welcome.html
+(use --cached to keep the file, or -f to force removal)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   welcome.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rm --cached welcome.html
+rm 'welcome.html'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        welcome.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   welcome.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rm -f welcome.html
+rm 'welcome.html'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add -all
+error: did you mean `--all` (with two dashes ?)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add --all
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   welcome.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit
+[master (root-commit) 81c0df4] 首頁 歡迎
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch error.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add --all
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "手動訊息"
+[master 90ca4de] 手動訊息
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 error.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ dir
+error.html  index.html  welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ld -l
+bash: ld: command not found
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -l
+total 0
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:17 index.html
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:24 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch hello.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit
+On branch master
+Untracked files:
+        hello.html
+
+nothing added to commit but untracked files present
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add .
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   hello.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "歡迎畫面"
+[master 75dfe5c] 歡迎畫面
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ vi welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ vi welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -l
+total 1
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:27 hello.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:17 index.html
+-rw-r--r-- 1 chtti 197121 145 五月 23 10:31 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ gi status
+bash: gi: command not found
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   welcome.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit
+On branch master
+Changes not staged for commit:
+        modified:   welcome.html
+
+no changes added to commit
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add welcome.html
+warning: LF will be replaced by CRLF in welcome.html.
+The file will have its original line endings in your working directory.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit
+warning: LF will be replaced by CRLF in welcome.html.
+The file will have its original line endings in your working directory.
+Aborting commit due to empty commit message.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "second commit"
+[master warning: LF will be replaced by CRLF in welcome.html.
+The file will have its original line endings in your working directory.
+392a635] second commit
+warning: LF will be replaced by CRLF in welcome.html.
+The file will have its original line endings in your working directory.
+ 1 file changed, 13 insertions(+)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+error.html  hello.html  index.html  welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -l
+total 1
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:27 hello.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:17 index.html
+-rw-r--r-- 1 chtti 197121 145 五月 23 10:31 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ vi welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add welcome.html
+warning: LF will be replaced by CRLF in welcome.html.
+The file will have its original line endings in your working directory.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "third commit"
+[master warning: LF will be replaced by CRLF in welcome.html.
+The file will have its original line endings in your working directory.
+c8689e0] third commit
+warning: LF will be replaced by CRLF in welcome.html.
+The file will have its original line endings in your working directory.
+ 1 file changed, 1 insertion(+), 13 deletions(-)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -l
+total 1
+-rw-r--r-- 1 chtti 197121  0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121  0 五月 23 10:27 hello.html
+-rw-r--r-- 1 chtti 197121  0 五月 23 10:17 index.html
+-rw-r--r-- 1 chtti 197121 13 五月 23 10:33 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch 123.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add 123.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ vi 123.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   123.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   123.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "4th commit"
+[master 957e95a] 4th commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 123.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   123.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log
+commit 957e95af3a57ea7deb28594225fa910325bd97c4
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:38:07 2016 +0800
+
+    4th commit
+
+commit c8689e07fe147ba2127c5d4f4410d6143547e6a5
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:34:09 2016 +0800
+
+    third commit
+
+commit 392a635888f0735498a8702cade287d0d8011a3c
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:32:57 2016 +0800
+
+    second commit
+
+commit 75dfe5c1781216d79e13c312b9ab5e7d075446dc
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:28:38 2016 +0800
+
+    歡迎畫面
+
+commit 90ca4de10ee0de74d006c39201d469d53df2df4e
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:26:52 2016 +0800
+
+    手動訊息
+
+commit 81c0df42ae95ac4b7346f832e7c5ffe00390a191
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:25:23 2016 +0800
+
+    首頁
+    歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit --amend
+[master 19aa87d] my 4th commit
+ Date: Mon May 23 10:38:07 2016 +0800
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 123.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log
+commit 19aa87d191dff416398c5153cb38daba692f54a3
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:38:07 2016 +0800
+
+    my 4th commit
+
+commit c8689e07fe147ba2127c5d4f4410d6143547e6a5
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:34:09 2016 +0800
+
+    third commit
+
+commit 392a635888f0735498a8702cade287d0d8011a3c
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:32:57 2016 +0800
+
+    second commit
+
+commit 75dfe5c1781216d79e13c312b9ab5e7d075446dc
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:28:38 2016 +0800
+
+    歡迎畫面
+
+commit 90ca4de10ee0de74d006c39201d469d53df2df4e
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:26:52 2016 +0800
+
+    手動訊息
+
+commit 81c0df42ae95ac4b7346f832e7c5ffe00390a191
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:25:23 2016 +0800
+
+    首頁
+    歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch add2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add add2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit --amend
+[master 2cd71bc] my 4th commit
+ Date: Mon May 23 10:38:07 2016 +0800
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 123.html
+ create mode 100644 add2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit --amend
+[master f7e5564] my 4th commit add2 file
+ Date: Mon May 23 10:38:07 2016 +0800
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 123.html
+ create mode 100644 add2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log
+commit f7e55644c4334f755af7a2a45f2322120905cfb7
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:38:07 2016 +0800
+
+    my 4th commit add2 file
+
+commit c8689e07fe147ba2127c5d4f4410d6143547e6a5
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:34:09 2016 +0800
+
+    third commit
+
+commit 392a635888f0735498a8702cade287d0d8011a3c
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:32:57 2016 +0800
+
+    second commit
+
+commit 75dfe5c1781216d79e13c312b9ab5e7d075446dc
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:28:38 2016 +0800
+
+    歡迎畫面
+
+commit 90ca4de10ee0de74d006c39201d469d53df2df4e
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:26:52 2016 +0800
+
+    手動訊息
+
+commit 81c0df42ae95ac4b7346f832e7c5ffe00390a191
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:25:23 2016 +0800
+
+    首頁
+    歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log -p
+commit f7e55644c4334f755af7a2a45f2322120905cfb7
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:38:07 2016 +0800
+
+    my 4th commit add2 file
+
+diff --git a/123.html b/123.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/add2.html b/add2.html
+new file mode 100644
+index 0000000..e69de29
+
+commit c8689e07fe147ba2127c5d4f4410d6143547e6a5
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:34:09 2016 +0800
+
+    third commit
+
+diff --git a/welcome.html b/welcome.html
+index 68dc711..c1a4598 100644
+--- a/welcome.html
++++ b/welcome.html
+@@ -1,13 +1 @@
+-ewtt
+-ert
+-ooooooooo
+-ooo
+-add hello
+-gferjtghrejhgjerhjhe
+-fdjhjhjhjhejrhtjrehtjrehtjrehtjerhjerw
+-t
+-rewt
+-raaathrtjhretjlkhrejterhjaet
+-eraaaw
+-traaawe
+-
++測試畫面
+
+commit 392a635888f0735498a8702cade287d0d8011a3c
+Author: weichia <weichia@cht.com.tw>
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+123.html  add2.html  error.html  hello.html  index.html  welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ mkdir images
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   123.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ rmdir images
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add 123.html
+warning: LF will be replaced by CRLF in 123.html.
+The file will have its original line endings in your working directory.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "finall"
+[master warning: LF will be replaced by CRLF in 123.html.
+The file will have its original line endings in your working directory.
+54e1e0d] finall
+warning: LF will be replaced by CRLF in 123.html.
+The file will have its original line endings in your working directory.
+ 1 file changed, 1 insertion(+)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ mkdir images
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch images/.gitkeep
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        images/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ rm images/.gitkeep
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch images/.keep
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        images/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log
+commit 54e1e0d184414f20c84851b0260f66dc50c7e482
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:57:29 2016 +0800
+
+    finall
+
+commit f7e55644c4334f755af7a2a45f2322120905cfb7
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:38:07 2016 +0800
+
+    my 4th commit add2 file
+
+commit c8689e07fe147ba2127c5d4f4410d6143547e6a5
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:34:09 2016 +0800
+
+    third commit
+
+commit 392a635888f0735498a8702cade287d0d8011a3c
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:32:57 2016 +0800
+
+    second commit
+
+commit 75dfe5c1781216d79e13c312b9ab5e7d075446dc
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:28:38 2016 +0800
+
+    歡迎畫面
+
+commit 90ca4de10ee0de74d006c39201d469d53df2df4e
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:26:52 2016 +0800
+
+    手動訊息
+
+commit 81c0df42ae95ac4b7346f832e7c5ffe00390a191
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:25:23 2016 +0800
+
+    首頁
+    歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ !
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph -oneline
+fatal: unrecognized argument: -oneline
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph -one line
+fatal: ambiguous argument 'line': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* 54e1e0d finall
+* f7e5564 my 4th commit add2 file
+* c8689e0 third commit
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* 54e1e0d finall
+* f7e5564 my 4th commit add2 file
+* c8689e0 third commit
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch head.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add head.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "test reset"
+[master 976c27d] test reset
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 head.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* 976c27d test reset
+* 54e1e0d finall
+* f7e5564 my 4th commit add2 file
+* c8689e0 third commit
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git reset head^
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* 54e1e0d finall
+* f7e5564 my 4th commit add2 file
+* c8689e0 third commit
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        head.html
+        images/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls images/
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -al images/
+total 4
+drwxr-xr-x 1 chtti 197121 0 五月 23 10:59 ./
+drwxr-xr-x 1 chtti 197121 0 五月 23 11:16 ../
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:59 .keep
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ rm images/.keep
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        head.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "test reset"
+On branch master
+Untracked files:
+        head.html
+
+nothing added to commit but untracked files present
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add head.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "test reset"
+[master 6efceb1] test reset
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 head.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* 6efceb1 test reset
+* 54e1e0d finall
+* f7e5564 my 4th commit add2 file
+* c8689e0 third commit
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git reset head^ --hard
+HEAD is now at 54e1e0d finall
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* 54e1e0d finall
+* f7e5564 my 4th commit add2 file
+* c8689e0 third commit
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+123.html  add2.html  error.html  hello.html  images/  index.html  welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -l
+total 2
+-rw-r--r-- 1 chtti 197121 12 五月 23 10:36 123.html
+-rw-r--r-- 1 chtti 197121  0 五月 23 10:44 add2.html
+-rw-r--r-- 1 chtti 197121  0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121  0 五月 23 10:27 hello.html
+drwxr-xr-x 1 chtti 197121  0 五月 23 11:17 images/
+-rw-r--r-- 1 chtti 197121  0 五月 23 10:17 index.html
+-rw-r--r-- 1 chtti 197121 13 五月 23 10:33 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ll head*
+ls: cannot access 'head*': No such file or directory
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -l head*
+ls: cannot access 'head*': No such file or directory
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* 54e1e0d finall
+* f7e5564 my 4th commit add2 file
+* c8689e0 third commit
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git reset head^^^
+warning: LF will be replaced by CRLF in welcome.html.
+The file will have its original line endings in your working directory.
+Unstaged changes after reset:
+M       welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   welcome.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        123.html
+        add2.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        123.html
+        add2.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout .
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        123.html
+        add2.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log
+commit 392a635888f0735498a8702cade287d0d8011a3c
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:32:57 2016 +0800
+
+    second commit
+
+commit 75dfe5c1781216d79e13c312b9ab5e7d075446dc
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:28:38 2016 +0800
+
+    歡迎畫面
+
+commit 90ca4de10ee0de74d006c39201d469d53df2df4e
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:26:52 2016 +0800
+
+    手動訊息
+
+commit 81c0df42ae95ac4b7346f832e7c5ffe00390a191
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 10:25:23 2016 +0800
+
+    首頁
+    歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch new.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        123.html
+        add2.html
+        new.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git cleam
+git: 'cleam' is not a git command. See 'git --help'.
+
+Did you mean this?
+        clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git cleam -f
+git: 'cleam' is not a git command. See 'git --help'.
+
+Did you mean this?
+        clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git clean
+fatal: clean.requireForce defaults to true and neither -i, -n, nor -f given; refusing to clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git clean -f
+Removing 123.html
+Removing add2.html
+Removing new.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ mkdir aaaa
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch aaaa/hello.kill.me
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git clean -f
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        aaaa/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git clean -fd
+Removing aaaa/
+Removing images/
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+error.html  hello.html  index.html  welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch
+* master
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch cat
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch
+  cat
+* master
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ get checkout cat
+bash: get: command not found
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout cat
+Switched to branch 'cat'
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git branch
+* cat
+  master
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git checkout master
+Switched to branch 'master'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch
+  cat
+* master
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout cat
+Switched to branch 'cat'
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git branch
+* cat
+  master
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ touch cat1.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git add -all
+error: did you mean `--all` (with two dashes ?)
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git add --all
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git commit -m 'add cat1'
+[cat 761171b] add cat1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cat1.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ touch cat2.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git add --all
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git commit -m 'add cat2'
+[cat 7504e70] add cat2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cat2.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git branch
+* cat
+  master
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git status
+On branch cat
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git branch master
+fatal: A branch named 'master' already exists.
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git checkout master
+Switched to branch 'master'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch master1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git all master1.html
+git: 'all' is not a git command. See 'git --help'.
+
+Did you mean this?
+        pull
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add master1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m 'add master1'
+[master 76b949e] add master1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 master1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch master2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add master2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m 'add master2'
+[master 67c5114] add master2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 master2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ dir
+error.html  hello.html  index.html  master1.html  master2.html  welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout cat
+Switched to branch 'cat'
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ ls
+cat1.html  cat2.html  error.html  hello.html  index.html  welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat)
+$ git checkout master
+Switched to branch 'master'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch dog
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch dog1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add all
+fatal: pathspec 'all' did not match any files
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add --all
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "add dog1"
+[master 3b8a240] add dog1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dog1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch dog2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add --all
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit -m "add dog2"
+[master af7c220] add dog2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dog2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch dog
+fatal: A branch named 'dog' already exists.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout dog
+Switched to branch 'dog'
+
+chtti@G317-P32 MINGW64 ~/demo (dog)
+$ touch real-dog1.html
+
+chtti@G317-P32 MINGW64 ~/demo (dog)
+$ git add --all
+
+chtti@G317-P32 MINGW64 ~/demo (dog)
+$ git commit -m "add real dog1"
+[dog 16bbd84] add real dog1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 real-dog1.html
+
+chtti@G317-P32 MINGW64 ~/demo (dog)
+$ touch real-dog2.html
+
+chtti@G317-P32 MINGW64 ~/demo (dog)
+$ git add --all
+
+chtti@G317-P32 MINGW64 ~/demo (dog)
+$ git commit -m "add real dog2"
+[dog 9b9b3dd] add real dog2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 real-dog2.html
+
+chtti@G317-P32 MINGW64 ~/demo (dog)
+$ git checkout master
+Switched to branch 'master'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git merge cat
+Merge made by the 'recursive' strategy.
+ cat1.html | 0
+ cat2.html | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cat1.html
+ create mode 100644 cat2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch -d dog
+error: The branch 'dog' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D dog'.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch
+  cat
+  dog
+* master
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch -D dog
+Deleted branch dog (was 9b9b3dd).
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch
+  cat
+* master
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch -d cat
+Deleted branch cat (was 7504e70).
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch master
+fatal: A branch named 'master' already exists.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch cat2
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout cat2
+Switched to branch 'cat2'
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ dir
+cat1.html  cat2.html  dog1.html  dog2.html  error.html  hello.html  index.html  master1.html  master2.html  welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ touch cat2_1.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ touch cat2_2.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git add cat2_1.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git commit -m "add cat2_1"
+[cat2 88ab00c] add cat2_1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cat2_1.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git add cat2_2.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git commit -m "add cat2_2"
+[cat2 5166cad] add cat2_2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cat2_2.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git merge cat2
+Already up-to-date.
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git checkout master
+Switched to branch 'master'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git merge cat2
+Updating bdd2bb2..5166cad
+Fast-forward
+ cat2_1.html | 0
+ cat2_2.html | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cat2_1.html
+ create mode 100644 cat2_2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout -b pig
+Switched to a new branch 'pig'
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ touch pig1.html
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git add pig1.html
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git commit -m 'add pig1'
+[pig e7827cf] add pig1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 pig1.html
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ touch pig2.html
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git add pig2.html
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git commit -m 'add pig2'
+[pig d94ac3c] add pig2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 pig2.html
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git checkout master
+Switched to branch 'master'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git merge pig --no-ff
+Merge made by the 'recursive' strategy.
+ pig1.html | 0
+ pig2.html | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 pig1.html
+ create mode 100644 pig2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+*   7d5009b Merge branch 'pig'
+|\
+| * d94ac3c add pig2
+| * e7827cf add pig1
+|/
+* 5166cad add cat2_2
+* 88ab00c add cat2_1
+*   bdd2bb2 Merge branch 'cat'
+|\
+| * 7504e70 add cat2
+| * 761171b add cat1
+* | af7c220 add dog2
+* | 3b8a240 add dog1
+* | 67c5114 add master2
+* | 76b949e add master1
+|/
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rebase -i 81
+fatal: Needed a single revision
+invalid upstream 81
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rebase -i 88
+fatal: Needed a single revision
+invalid upstream 88
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rebase -i 7d
+fatal: Needed a single revision
+invalid upstream 7d
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rebase -i 90
+fatal: Needed a single revision
+invalid upstream 90
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rebase -i 90ca
+[detached HEAD e8b864d] after reword => second commit
+ Date: Mon May 23 10:32:57 2016 +0800
+ 1 file changed, 13 insertions(+)
+[detached HEAD e2ff99a] after reword = > add pig1
+ Date: Mon May 23 13:39:59 2016 +0800
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 pig1.html
+[detached HEAD a525696] after reword => add pig2
+ Date: Mon May 23 13:40:17 2016 +0800
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 pig2.html
+Successfully rebased and updated refs/heads/master.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* a525696 after reword => add pig2
+* e2ff99a after reword = > add pig1
+* 11cfad6 add cat2_2
+* 074c2da add cat2_1
+* 879938c add cat2
+* 522e25e add cat1
+* dc145fb add dog2
+* 77d3d98 add dog1
+* 607b84b add master2
+* 329cede add master1
+* e8b864d after reword => second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch
+  cat2
+* master
+  pig
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git co cat2
+git: 'co' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+        commit
+        clone
+        log
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rebase -i 90ca
+Stopped at 522e25e78d32e2005f91e0485ea28fb13f51951d... add cat1
+You can amend the commit now, with
+
+        git commit --amend
+
+Once you are satisfied with your changes, run
+
+        git rebase --continue
+
+
+chtti@G317-P32 MINGW64 ~/demo (master|REBASE-i 7/12)
+$ touch sheep1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master|REBASE-i 7/12)
+$ git add sheep1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master|REBASE-i 7/12)
+$ git commit -m 'add sheep2'
+[detached HEAD 66dc108] add sheep2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sheep1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master|REBASE-i 7/12)
+$ touch sheep2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master|REBASE-i 7/12)
+$ git add sheep2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master|REBASE-i 7/12)
+$ git commit -m 'add sheep2_true'
+[detached HEAD a43aa41] add sheep2_true
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sheep2.html
+
+chtti@G317-P32 MINGW64 ~/demo (master|REBASE-i 7/12)
+$ git rebase --continue
+Successfully rebased and updated refs/heads/master.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* b11eac0 after reword => add pig2
+* 98090a6 after reword = > add pig1
+* cae3e2c add cat2_2
+* ab1ba5a add cat2_1
+* c86beca add cat2
+* a43aa41 add sheep2_true
+* 66dc108 add sheep2
+* 522e25e add cat1
+* dc145fb add dog2
+* 77d3d98 add dog1
+* 607b84b add master2
+* 329cede add master1
+* e8b864d after reword => second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch
+  cat2
+* master
+  pig
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout pig
+Switched to branch 'pig'
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ ls
+cat1.html  cat2_1.html  dog1.html  error.html  index.html    master2.html  pig2.html
+cat2.html  cat2_2.html  dog2.html  hello.html  master1.html  pig1.html     welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ vi index.html
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git status
+On branch pig
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git commit -m 'pig modify index1'
+On branch pig
+Changes not staged for commit:
+        modified:   index.html
+
+no changes added to commit
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git add index.html
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git status
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+On branch pig
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git commit -m 'pig modify index1'
+[pig warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+46015ad] pig modify index1
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+ 1 file changed, 1 insertion(+)
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git checkout sheep
+error: pathspec 'sheep' did not match any file(s) known to git.
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git branch
+  cat2
+  master
+* pig
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git checkout cat2
+Switched to branch 'cat2'
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ vi index.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ vi index.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git add index.html
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git commit -m 'cat modify index1'
+[cat2 warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+1c2fd67] cat modify index1
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+ 1 file changed, 1 insertion(+)
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git merge pig
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+chtti@G317-P32 MINGW64 ~/demo (cat2|MERGING)
+$ git checkout master
+index.html: needs merge
+error: you need to resolve your current index first
+
+chtti@G317-P32 MINGW64 ~/demo (cat2|MERGING)
+$ vi index.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2|MERGING)
+$ git status
+On branch cat2
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Changes to be committed:
+
+        new file:   pig1.html
+        new file:   pig2.html
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   index.html
+
+
+chtti@G317-P32 MINGW64 ~/demo (cat2|MERGING)
+$ git add index.html
+
+chtti@G317-P32 MINGW64 ~/demo (cat2|MERGING)
+$ git commit
+[cat2 d9d93c5] Merge branch 'pig' into cat2
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git log --graph --oneline
+*   d9d93c5 Merge branch 'pig' into cat2
+|\
+| * 46015ad pig modify index1
+| * d94ac3c add pig2
+| * e7827cf add pig1
+* | 1c2fd67 cat modify index1
+|/
+* 5166cad add cat2_2
+* 88ab00c add cat2_1
+*   bdd2bb2 Merge branch 'cat'
+|\
+| * 7504e70 add cat2
+| * 761171b add cat1
+* | af7c220 add dog2
+* | 3b8a240 add dog1
+* | 67c5114 add master2
+* | 76b949e add master1
+|/
+* 392a635 second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (cat2)
+$ git checkout master
+Switched to branch 'master'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit merge
+error: pathspec 'merge' did not match any file(s) known to git.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git merge
+fatal: No remote for the current branch.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout 90Ca
+Note: checking out '90Ca'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 90ca4de... 手動訊息
+
+chtti@G317-P32 MINGW64 ~/demo ((90ca4de...))
+$ ls -l
+total 0
+-rw-r--r-- 1 chtti 197121 0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121 0 五月 23 14:39 index.html
+-rw-r--r-- 1 chtti 197121 0 五月 23 14:40 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo ((90ca4de...))
+$ git checkout master
+Previous HEAD position was 90ca4de... 手動訊息
+Switched to branch 'master'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -l
+total 1
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 cat1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 cat2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 cat2_1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 cat2_2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 dog1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 dog2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 hello.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:39 index.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 master1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 master2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 pig1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 pig2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 sheep1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:41 sheep2.html
+-rw-r--r-- 1 chtti 197121 158 五月 23 14:41 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git log --graph --oneline
+* b11eac0 after reword => add pig2
+* 98090a6 after reword = > add pig1
+* cae3e2c add cat2_2
+* ab1ba5a add cat2_1
+* c86beca add cat2
+* a43aa41 add sheep2_true
+* 66dc108 add sheep2
+* 522e25e add cat1
+* dc145fb add dog2
+* 77d3d98 add dog1
+* 607b84b add master2
+* 329cede add master1
+* e8b864d after reword => second commit
+* 75dfe5c 歡迎畫面
+* 90ca4de 手動訊息
+* 81c0df4 首頁 歡迎
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git tag
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git tag v1.0.0
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git tag
+v1.0.0
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git tag milestone1 75dfe5c
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git tag
+milestone1
+v1.0.0
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout milestone1
+Note: checking out 'milestone1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 75dfe5c... 歡迎畫面
+
+chtti@G317-P32 MINGW64 ~/demo ((milestone1))
+$ git checkout v1.1.0
+error: pathspec 'v1.1.0' did not match any file(s) known to git.
+
+chtti@G317-P32 MINGW64 ~/demo ((milestone1))
+$ git checkout v1.0.0
+Previous HEAD position was 75dfe5c... 歡迎畫面
+HEAD is now at b11eac0... after reword => add pig2
+
+chtti@G317-P32 MINGW64 ~/demo ((v1.0.0))
+$ git checkout master
+Switched to branch 'master'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git rebase cat2
+First, rewinding head to replay your work on top of it...
+Applying: add sheep2
+Applying: add sheep2_true
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git remote add origin https://github.com/weichia2005/hello-git.git
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git  remote -v
+origin  https://github.com/weichia2005/hello-git.git (fetch)
+origin  https://github.com/weichia2005/hello-git.git (push)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git  remote rm origin
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git  remote -v
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git remote add origin https://github.com/weichia2005/hello-git.git
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git  remote -v
+origin  https://github.com/weichia2005/hello-git.git (fetch)
+origin  https://github.com/weichia2005/hello-git.git (push)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': weichia2005@gmail.com
+Counting objects: 45, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (41/41), done.
+Writing objects: 100% (45/45), 3.82 KiB | 0 bytes/s, done.
+Total 45 (delta 19), reused 0 (delta 0)
+To https://github.com/weichia2005/hello-git.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ touch push1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add push1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit push1.html
+Aborting commit due to empty commit message.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit push1.html -m 'my first push'
+[master c4fba7e] my first push
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 push1.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 232 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+To https://github.com/weichia2005/hello-git.git
+   e87e1e1..c4fba7e  master -> master
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push origin cat
+error: src refspec cat does not match any.
+error: failed to push some refs to 'https://github.com/weichia2005/hello-git.git'
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git brunch
+git: 'brunch' is not a git command. See 'git --help'.
+
+Did you mean this?
+        branch
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch
+  cat2
+* master
+  pig
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push origin cat2
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/weichia2005/hello-git.git
+ * [new branch]      cat2 -> cat2
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push origin pig
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/weichia2005/hello-git.git
+ * [new branch]      pig -> pig
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git tag
+milestone1
+v1.0.0
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push origin milestone1
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/weichia2005/hello-git.git
+ * [new tag]         milestone1 -> milestone1
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push origin :milestone1
+To https://github.com/weichia2005/hello-git.git
+ - [deleted]         milestone1
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git pull
+Already up-to-date.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git pull origin master
+From https://github.com/weichia2005/hello-git
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git fetch
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/weichia2005/hello-git
+   c4fba7e..a33800f  master     -> origin/master
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout origin/master
+Note: checking out 'origin/master'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at a33800f... Update hello.html
+
+chtti@G317-P32 MINGW64 ~/demo ((a33800f...))
+$ ls\
+>
+cat1.html  cat2_1.html  dog1.html  error.html  index.html    master2.html  pig2.html   sheep1.html  welcome.html
+cat2.html  cat2_2.html  dog2.html  hello.html  master1.html  pig1.html     push1.html  sheep2.html
+
+chtti@G317-P32 MINGW64 ~/demo ((a33800f...))
+$ ls
+cat1.html  cat2_1.html  dog1.html  error.html  index.html    master2.html  pig2.html   sheep1.html  welcome.html
+cat2.html  cat2_2.html  dog2.html  hello.html  master1.html  pig1.html     push1.html  sheep2.html
+
+chtti@G317-P32 MINGW64 ~/demo ((a33800f...))
+$ cat hello.html
+modify from web
+
+
+modify from web second times
+
+chtti@G317-P32 MINGW64 ~/demo ((a33800f...))
+$ get checkout master
+bash: get: command not found
+
+chtti@G317-P32 MINGW64 ~/demo ((a33800f...))
+$ git checkout master
+Previous HEAD position was a33800f... Update hello.html
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git merge origin/master
+Updating c4fba7e..a33800f
+Fast-forward
+ hello.html | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/weichia2005/hello-git
+   a33800f..5cd61ac  master     -> origin/master
+Updating a33800f..5cd61ac
+Fast-forward
+ hello.html | 3 +++
+ 1 file changed, 3 insertions(+)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ cat hello.html
+modify from web
+
+
+modify from web second times
+
+
+第三次
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git branch
+  cat2
+* master
+  pig
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout origin/master
+Note: checking out 'origin/master'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 5cd61ac... Update hello.html
+
+chtti@G317-P32 MINGW64 ~/demo ((5cd61ac...))
+$ ls -l
+total 3
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat2_1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat2_2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 dog1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 dog2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121  66 五月 23 15:40 hello.html
+-rw-r--r-- 1 chtti 197121  28 五月 23 14:47 index.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 master1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 master2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 pig1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 pig2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 15:14 push1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:47 sheep1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:47 sheep2.html
+-rw-r--r-- 1 chtti 197121 158 五月 23 14:46 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo ((5cd61ac...))
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ vi index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push
+To https://github.com/weichia2005/hello-git.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/weichia2005/hello-git.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/weichia2005/hello-git
+   5cd61ac..3090e66  master     -> origin/master
+Updating 5cd61ac..3090e66
+Fast-forward
+ hello.html | 2 ++
+ 1 file changed, 2 insertions(+)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push
+Everything up-to-date
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git add index.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git commit index.html -m "local modify"
+[master 68ef356] local modify
+ 1 file changed, 2 insertions(+)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push
+To https://github.com/weichia2005/hello-git.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/weichia2005/hello-git.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/weichia2005/hello-git
+   3090e66..110e4fd  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ hello.html | 3 +++
+ 1 file changed, 3 insertions(+)
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git push
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 545 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To https://github.com/weichia2005/hello-git.git
+   110e4fd..1785f50  master -> master
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git clone https://github.com/openaddresses/openaddresses.git
+Cloning into 'openaddresses'...
+remote: Counting objects: 28671, done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 28671 (delta 9), reused 0 (delta 0), pack-reused 28651
+Receiving objects: 100% (28671/28671), 5.85 MiB | 276.00 KiB/s, done.
+Resolving deltas: 100% (20915/20915), done.
+Checking connectivity... done.
+Checking out files: 100% (1556/1556), done.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls -l
+total 7
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat2_1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat2_2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 dog1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 dog2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121 103 五月 23 15:48 hello.html
+-rw-r--r-- 1 chtti 197121  44 五月 23 15:44 index.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 master1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 master2.html
+drwxr-xr-x 1 chtti 197121   0 五月 23 15:55 openaddresses/
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 pig1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 pig2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 15:14 push1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:47 sheep1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:47 sheep2.html
+-rw-r--r-- 1 chtti 197121 158 五月 23 14:46 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout openaddresses/
+error: pathspec 'openaddresses/' did not match any file(s) known to git.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout openaddresses
+error: pathspec 'openaddresses' did not match any file(s) known to git.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ cd openaddresses/
+
+chtti@G317-P32 MINGW64 ~/demo/openaddresses (master)
+$ ls
+apply-us-data.py*  CONTRIBUTING.md  LICENSE  OUTREACH_EXAMPLE.md  package.json  README.md  scripts/  sources/  test/  us-data/
+
+chtti@G317-P32 MINGW64 ~/demo/openaddresses (master)
+$ ls -l
+total 45
+-rwxr-xr-x 1 chtti 197121  3124 五月 23 15:55 apply-us-data.py*
+-rw-r--r-- 1 chtti 197121 17120 五月 23 15:55 CONTRIBUTING.md
+-rw-r--r-- 1 chtti 197121  1491 五月 23 15:55 LICENSE
+-rw-r--r-- 1 chtti 197121   966 五月 23 15:55 OUTREACH_EXAMPLE.md
+-rw-r--r-- 1 chtti 197121   511 五月 23 15:55 package.json
+-rw-r--r-- 1 chtti 197121  1546 五月 23 15:55 README.md
+drwxr-xr-x 1 chtti 197121     0 五月 23 15:55 scripts/
+drwxr-xr-x 1 chtti 197121     0 五月 23 15:55 sources/
+drwxr-xr-x 1 chtti 197121     0 五月 23 15:55 test/
+drwxr-xr-x 1 chtti 197121     0 五月 23 15:55 us-data/
+
+chtti@G317-P32 MINGW64 ~/demo/openaddresses (master)
+$ cd ..
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git flow init
+
+Which branch should be used for bringing forth production releases?
+   - cat2
+   - master
+   - pig
+Branch name for production releases: [master]
+
+Which branch should be used for integration of the "next release"?
+   - cat2
+   - pig
+Branch name for "next release" development: [] pig
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? [] tac
+Hooks and filters directory? [C:/Users/chtti/demo/.git/hooks]
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ ls
+cat1.html  cat2_1.html  dog1.html  error.html  index.html    master2.html    pig1.html  push1.html   sheep2.html
+cat2.html  cat2_2.html  dog2.html  hello.html  master1.html  openaddresses/  pig2.html  sheep1.html  welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git checkout develop
+error: pathspec 'develop' did not match any file(s) known to git.
+
+chtti@G317-P32 MINGW64 ~/demo (master)
+$ git flow feature start sign_up
+Switched to a new branch 'feature/sign_up'
+
+Summary of actions:
+- A new branch 'feature/sign_up' was created, based on 'pig'
+- You are now on branch 'feature/sign_up'
+
+Now, start committing on your feature. When done, use:
+
+     git flow feature finish sign_up
+
+
+chtti@G317-P32 MINGW64 ~/demo (feature/sign_up)
+$ touch sign_up.html
+
+chtti@G317-P32 MINGW64 ~/demo (feature/sign_up)
+$ git add sign_up.html
+
+chtti@G317-P32 MINGW64 ~/demo (feature/sign_up)
+$ git commit sign_up.html -m "add sign_up"
+[feature/sign_up 6aade6b] add sign_up
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sign_up.html
+
+chtti@G317-P32 MINGW64 ~/demo (feature/sign_up)
+$ git flow feature finish sign_up
+Switched to branch 'pig'
+Updating 46015ad..6aade6b
+Fast-forward
+ sign_up.html | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sign_up.html
+Deleted branch feature/sign_up (was 6aade6b).
+
+Summary of actions:
+- The feature branch 'feature/sign_up' was merged into 'pig'
+- Feature branch 'feature/sign_up' has been locally deleted
+- You are now on branch 'pig'
+
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git branch
+  cat2
+  master
+* pig
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git flow feature start log_out
+Branches 'pig' and 'origin/pig' have diverged.
+And local branch 'pig' is ahead of 'origin/pig'.
+Switched to a new branch 'feature/log_out'
+
+Summary of actions:
+- A new branch 'feature/log_out' was created, based on 'pig'
+- You are now on branch 'feature/log_out'
+
+Now, start committing on your feature. When done, use:
+
+     git flow feature finish log_out
+
+
+chtti@G317-P32 MINGW64 ~/demo (feature/log_out)
+$ touch log_out.html
+
+chtti@G317-P32 MINGW64 ~/demo (feature/log_out)
+$ git add log_out.html
+
+chtti@G317-P32 MINGW64 ~/demo (feature/log_out)
+$ git commit log_out.html -m "add log_out"
+[feature/log_out 48bd86b] add log_out
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 log_out.html
+
+chtti@G317-P32 MINGW64 ~/demo (feature/log_out)
+$ ls
+cat1.html  cat2_1.html  dog1.html  error.html  index.html    master1.html  openaddresses/  pig2.html     welcome.html
+cat2.html  cat2_2.html  dog2.html  hello.html  log_out.html  master2.html  pig1.html       sign_up.html
+
+chtti@G317-P32 MINGW64 ~/demo (feature/log_out)
+$ ls -l
+total 6
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat2_1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 cat2_2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 dog1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 dog2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 10:26 error.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 16:08 hello.html
+-rw-r--r-- 1 chtti 197121  20 五月 23 16:08 index.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 16:10 log_out.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 master1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 master2.html
+drwxr-xr-x 1 chtti 197121   0 五月 23 15:55 openaddresses/
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 pig1.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 14:46 pig2.html
+-rw-r--r-- 1 chtti 197121   0 五月 23 16:09 sign_up.html
+-rw-r--r-- 1 chtti 197121 158 五月 23 14:46 welcome.html
+
+chtti@G317-P32 MINGW64 ~/demo (feature/log_out)
+$ git flow feature finish log_out
+Branches 'pig' and 'origin/pig' have diverged.
+And local branch 'pig' is ahead of 'origin/pig'.
+Switched to branch 'pig'
+Updating 6aade6b..48bd86b
+Fast-forward
+ log_out.html | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 log_out.html
+Deleted branch feature/log_out (was 48bd86b).
+
+Summary of actions:
+- The feature branch 'feature/log_out' was merged into 'pig'
+- Feature branch 'feature/log_out' has been locally deleted
+- You are now on branch 'pig'
+
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git flow --help
+Launching default browser to display HTML ...
+fatal: failed to launch browser for C:\Program Files\Git\mingw64/share/doc/git-doc/git-flow.html
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git flow -help
+usage: git flow <subcommand>
+
+Available subcommands are:
+   init      Initialize a new git repo with support for the branching model.
+   feature   Manage your feature branches.
+   bugfix    Manage your bugfix branches.
+   release   Manage your release branches.
+   hotfix    Manage your hotfix branches.
+   support   Manage your support branches.
+   version   Shows version information.
+   config    Manage your git-flow configuration.
+   log       Show log deviating from base branch.
+
+Try 'git flow <subcommand> help' for details.
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git flow version
+1.9.1 (AVH Edition)
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$ git flow log
+Comparing against "master" branch\n
+commit 48bd86b1377df82f09c8167368aa8ca40e80399c
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 16:12:09 2016 +0800
+
+    add log_out
+
+commit 6aade6bf684e4c17319cbe2b7fa7103f5558bc73
+Author: weichia <weichia@cht.com.tw>
+Date:   Mon May 23 16:09:02 2016 +0800
+
+    add sign_up
+
+chtti@G317-P32 MINGW64 ~/demo (pig)
+$
